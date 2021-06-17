@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Pattaya, sans-serif;
+    background-color: darkslategray;
+}
+/* layout */
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+/* navbar */
+.navbar{
+   background-color: skyblue;
+   width: 100%;  
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-brand{
+    font-size: 1.75rem; /*1rem=16px*/
+    font-weight:700;
+    text-decoration:none;
+     color: black;
+     background-color: crimson ;
+     padding: 1px 4px;
+     margin: 6px 0;
+     border: 1px solid #fefefe;
+     border-right-width: 5px;
+     border-bottom-width: 5px;
+}
+.nav-item {
+    display: flex;
+}
+.nav-item li{
+    list-style: none;
+}
+.nav-item .nav-link{
+    text-decoration: none;
+    color: crimson;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: background-color .19s ease-in;
+}
+.nav-link:hover{
+    background-color: darkcyan;
+    color: darksalmon;
+    border-radius: 7px;
+}
